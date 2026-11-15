@@ -1,0 +1,41 @@
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Visual Studio Code
+.vscode/
+
+# Java and Gradle
+.gradle/
+**/build/
+*.class
+
+# Angular and Node.js
+node_modules/
+dist/
+.angular/
+coverage/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Local database files
+pgdata/
+postgres-data/
+
+# Local configuration
+application-local.properties
+application-local.yml
+application-local.yaml
