@@ -1,3 +1,13 @@
 spring:
   application:
     name: buyapprove-backend
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/${POSTGRES_DB:buyapprove_db}
+    username: ${POSTGRES_USER:admin}
+    password: ${POSTGRES_PASSWORD}
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
